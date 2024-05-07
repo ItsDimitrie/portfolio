@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       <button className="dekstopMenuBtn">
-        <img src={contactImg} alt=""  className='dekstopMenuImg'/></button>
+      <i id='contactMeImg' class="fa-brands fa-whatsapp fa-2xl"></i>Contact Me</button>
 
 </nav>
   )
