@@ -1,6 +1,13 @@
 import React from "react";
 import './Portfolio.css';
-import Portfolio1 from '../../assets/IMG_1370.png';
+import PortfolioRWS from '../../assets/RWSProject.png';
+import PortfolioHZ from '../../assets/HZProject.png';
+import PortfolioITC from '../../assets/ITCProject.png';
+import PortfolioSport from '../../assets/SportProject.png';
+import PortfolioStudio from '../../assets/StudioProject.png';
+import PortfolioDrone from '../../assets/DroneProject.png';
+
+
 import { Link } from 'react-scroll';
 
 const Portfolio = () => {
@@ -12,12 +19,12 @@ const Portfolio = () => {
         Here I am studying the computer-science program with a deep dive in to frontend software development. Check out more of my work on this Portfolio page.</span>
 
         <div className='worksImgs'>
-          <img src={Portfolio1} alt="" className="worksImg" />
-          <img src={Portfolio1} alt="" className="worksImg" />
-          <img src={Portfolio1} alt="" className="worksImg" />
-          <img src={Portfolio1} alt="" className="worksImg" />
-          <img src={Portfolio1} alt="" className="worksImg" />
-          <img src={Portfolio1} alt="" className="worksImg" />
+          <img src={PortfolioRWS} alt="" className="worksImg" />
+          <img src={PortfolioHZ} alt="" className="worksImg" />
+          <img src={PortfolioITC} alt="" className="worksImg" />
+          <img src={PortfolioSport} alt="" className="worksImg" />
+          <img src={PortfolioStudio} alt="" className="worksImg" />
+          <img src={PortfolioDrone} alt="" className="worksImg" />
         </div>
 
 

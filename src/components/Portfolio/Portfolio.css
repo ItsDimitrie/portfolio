@@ -22,12 +22,13 @@
 }
 
 .worksImgs {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   width: 100vw;
-  max-width: 65rem;
+  max-width: 50rem;
 }
 
 .worksImg {
@@ -43,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem 1rem;
     border-radius: 5rem;
 }
