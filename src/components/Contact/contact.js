@@ -4,22 +4,20 @@ import './contact.css';
 const Contact = () => {
   return (
     <section id='contactPage'>
-
-      <div id='clients'>
-
-      <h2 className="clientTitle">Clients</h2>
-      <p className='clientDesc'>As a Camera-Operator I have worked for many clients, from my previous full time job in Hilversum to freelance
-      jobs for other companys. You will mostly find me behind a camera on sport events such as the 'Azerion Vrouwen Eredvisie' or studio jobs such as 'Hart Van Nederland' or 'Shownieuws'.
-      These jobs are all done for broadcast facilitie companys</p>
-      
-      <div id="App"></div>
-
-      </div>
-      
       <div id='contact'>
+        <h1 className='contactPageTtle'>Contact Me</h1>
+        <span className='contactDesc'>If you have any questions or would like to work with me, please feel free to contact me.</span>
+
+        <form className='contactForm'>
+          <input type='text' placeholder='Your Name' className='name' />
+          <input type='email' placeholder='Your Email' className='email' />
+          <textarea className='msg' name='message' rows='5' placeholder="Your Message"></textarea>
+          <button type='submit' value='send' className='submitBtn'><i id='sendIcon' class="fa-solid fa-paper-plane fa-beat fa-2xl"></i>Submit</button>
+          <div classname='links'>
+          </div>
+        </form>
 
       </div>
-
     </section>
   )
 }

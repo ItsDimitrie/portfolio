@@ -10,29 +10,50 @@
   padding: 0 1rem;
 }
 
-.clientTitle {
+.contactPageTtle {
   margin: 1rem 0;
   font-size: 3rem;
 }
 
-.clientDesc {
+.contactDesc {
   font-weight: 300;
   font-size: 1rem;
 }
 
-.clientImgs {
-  margin: 1rem 0;
+.contactForm {
+  margin: 1rem;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 60rem;
 }
 
-.clientImg {
-  object-fit: cover;
-  width: 23%;
-  min-width: 9rem;
-  margin: auto;
-  padding: 0.25rem;
+.name, .email, .msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40,40,40);
 }
 
-#clients {
-  padding: 2rem;
+.submitBtn {
+  margin-top: 1rem;
+  background: white;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  border-radius: 5rem;
+}
+
+#sendIcon {
+  margin-right: 0.5rem;
 }
