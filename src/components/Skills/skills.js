@@ -6,30 +6,32 @@ const Skills = () => {
     <div>
       <section id='skills'>
         <span className='skillTitle'>What I do</span>
-        <span className='skillDesc'>Lorem ipsum dolor sit amet. 33 architecto possimus id quam consequuntur et maxime repudiandae ut autem aspernatur. Sed veritatis laudantium ut consequuntur officia ut minus rerum eum tempora quasi ut cumque quidem. Et dolor rerum rem numquam omnis in repellat dicta qui laudantium aperiam est enim amet. Et fuga consequatur ut harum nihil ex saepe dolore! </span>
+        <span className='skillDesc'>Since graduating from the Curio College back in 2018 I have worked as a Camera-Operator for 4 years. I still am working as a freelancer these days. 
+        After this adventure I have started to chase a diffrent passion of mine. As of right now I am a student at the HZ University of Applied Sciences in Middelburg.
+        Here I am studying the computer-science program with a deep dive in to frontend software development. Check out more of my work on this Portfolio page. </span>
         <div className='skillBars'>
 
+        <div className='skillBar'>
+          <i id="icon" class="fa-solid fa-code fa-2xl fa-fade" style={{color: "#ffffff",}}></i>
+            <div className="skillBarText">
+              <h2>Software Development</h2>
+              <p>Frontend Developments projects, school projects, side projects.</p>
+            </div>
+          </div>
+
           <div className='skillBar'>
-          <i id="icon" class="fa-solid fa-palette fa-2xl"></i>
+          <i id="icon" class="fa-solid fa-palette fa-2xl fa-fade" style={{color: "#ff6a00",}}></i>
             <div className="skillBarText">
               <h2>Design</h2>
-              <p>Dit is een demo Text</p>
+              <p>Photoshop, eSports Designs and designs for multiple projects.</p>
             </div>
           </div>
 
           <div className='skillBar'>
-          <i id="icon" class="fa-solid fa-code fa-2xl"></i>
-            <div className="skillBarText">
-              <h2>Code</h2>
-              <p>Dit is een demo Text</p>
-            </div>
-          </div>
-
-          <div className='skillBar'>
-          <i id="icon" class="fa-solid fa-video fa-2xl"></i>
+          <i id="icon" class="fa-solid fa-film fa-2xl fa-fade" style={{color: "#74C0FC",}}></i>
             <div className="skillBarText">
               <h2>Video</h2>
-              <p>Dit is een demo Text</p>
+              <p>Multicam Camera-Operator, Drone Operator, Video Editor</p>
             </div>
           </div>
 

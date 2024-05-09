@@ -40,7 +40,20 @@
 }
 
 #icon {
-  margin-right: 1rem;
+  margin-right: 2rem;
   margin-top: 1.75rem;
-  color: black;
+}
+
+.skillBarText>p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width:720px) {
+  .skillBarText>p {
+    font-size: 2vw;
+  }
+  .skillBarText>h2 {
+    font-size: 6vw;
+  }
 }
