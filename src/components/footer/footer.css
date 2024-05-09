@@ -32,3 +32,12 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .socialLink {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+}
