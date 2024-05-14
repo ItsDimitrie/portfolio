@@ -1,26 +1,19 @@
 import Navbar from "./components/NavBar/navbar";
-import Intro from "./components/Intro/intro";
-import Skills from "./components/Skills/skills";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Client from "./components/Contact/client";
-import ImageSliderAuto from './components/imageSlider/ImageSliderAuto';
-import Contact from "./components/Contact/contact";
-import './components/imageSlider/imageSlider.css';
-import {ImageData} from './json/JsonData';
+import Home from "./components/Home/home";
 import Footer from "./components/footer/footer";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/About/about";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Intro />
-      <Skills />
-      <Portfolio />
-      <Client />
-      <ImageSliderAuto ImageData={ImageData} SlideInterValTime={4000}/>
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <Footer />
-      </div>
+    </div>
   );
 }
 
