@@ -1,9 +1,11 @@
 import React from "react";
 import './about.css'
+import NavBar from '../NavBar/navbar'
 
 const About = () => {
   return (
     <div>
+       <NavBar />
       <section id='skills'>
         <span className='skillTitle'>What I do</span>
         <span className='skillDesc'>Since graduating from the Curio College back in 2018 I have worked as a Camera-Operator for 4 years. I still am working as a freelancer these days. 

@@ -5,10 +5,12 @@ import Client from "../Contact/client";
 import ImageSliderAuto from '..//imageSlider/ImageSliderAuto';
 import Contact from "..//Contact/contact";
 import {ImageData} from '../../json/JsonData';
+import NavBarHome from "../NavBarHome/navbar";
 
 function Home() {
   return (
     <div className="App">
+      <NavBarHome />
       <Intro />
       <Skills />
       <Portfolio />

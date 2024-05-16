@@ -1,13 +1,14 @@
 #skills {
-  overflow: hidden;
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 65rem;
+  max-width: 60rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .skillTitle {
@@ -47,6 +48,22 @@
 .skillBarText>p {
   font-size: 1rem;
   font-weight: 200;
+}
+
+.seeMoreBtn {
+  background: white;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  border-radius: 5rem;
+}
+
+#seeMoreIcn {
+  margin-right: 0.25rem;
+  color: black;
 }
 
 @media screen and (max-width:720px) {

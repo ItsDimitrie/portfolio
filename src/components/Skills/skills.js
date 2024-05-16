@@ -34,8 +34,10 @@ const Skills = () => {
               <p>Multicam Camera-Operator, Drone Operator, Video Editor</p>
             </div>
           </div>
-
         </div>
+
+        <a href='/about'><button className='seeMoreBtn'><i id='seeMoreIcn' class="fa-solid fa-hand-peace fa-2xl"></i>Read more about me.</button></a>
+
       </section>
     </div>
   );
