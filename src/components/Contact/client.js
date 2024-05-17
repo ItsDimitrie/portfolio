@@ -1,9 +1,11 @@
 import React from "react";
 import './client.css';
+import ImageSliderAuto from "../imageSlider/ImageSliderAuto";
+import {ImageData} from '../../json/JsonData';
 
 const Client = () => {
   return (
-    <section id='contactPage'>
+    <section id='client'>
 
       <div id='clients'>
 
@@ -13,6 +15,11 @@ const Client = () => {
       These jobs are all done for broadcast facilitie companys</p>
       
       </div>
+
+      <div className='imageSliders'>
+      <ImageSliderAuto id='imageSlider' ImageData={ImageData} SlideInterValTime={4000}/>
+      </div>
+
     </section>
   )
 }

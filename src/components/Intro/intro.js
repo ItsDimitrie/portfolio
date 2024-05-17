@@ -1,6 +1,6 @@
 import React from "react";
 import './intro.css';
-import bg from '../../assets/DimiBG.png';
+import bg from '../../assets/DimiBier.png';
 import { Link } from 'react-scroll';
 
 const Intro = () => {

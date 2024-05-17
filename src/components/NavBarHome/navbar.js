@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="dekstopMenuListItem">Home</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-90} duration={500}  className="dekstopMenuListItem">About</Link>
-        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-55} duration={500}  className="dekstopMenuListItem">Portfolio</Link>
-        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={0} duration={500}  className="dekstopMenuListItem">Clients</Link>
+        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-80} duration={500}  className="dekstopMenuListItem">Portfolio</Link>
+        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-80} duration={500}  className="dekstopMenuListItem">Clients</Link>
       </div>
 
       <button className="dekstopMenuBtn" onClick={() => {
@@ -26,8 +26,8 @@ const Navbar = () => {
       <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=>setShowMenu(false)}>Home</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-90} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>About</Link>
-        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-55} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>Portfolio</Link>
-        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={0} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>Clients</Link>
+        <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-60} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>Portfolio</Link>
+        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-60} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>Clients</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500}  className="ListItem" onClick={()=>setShowMenu(false)}>Contact</Link>
       </div>
   </nav>

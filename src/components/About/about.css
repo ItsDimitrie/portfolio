@@ -18,10 +18,10 @@
 }
 
 .aboutDesc {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 0.8rem;
   max-width: 50rem;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .imageSliders {
@@ -29,12 +29,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  padding: 0 20rem;
+  margin-bottom: 7rem;
+  padding: 2rem;
 }
 
-.imageSlider {
-  padding: 0 5rem;
-}
-
-.imageSliders img {
-}
