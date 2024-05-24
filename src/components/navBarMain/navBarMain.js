@@ -11,10 +11,10 @@ const Navbar = () => {
       <a href='/'><img src={logo} alt="Logo" className='logo' /></a>
 
       <div className="desktopMenu">
-        <a href='/' className="dekstopMenuListItem">Home</a>
-        <a href='/about' className="dekstopMenuListItem">About</a>
-        <a href='/portfolio' className="dekstopMenuListItem">Portfolio</a>
-        <a href='/clients' className="dekstopMenuListItem">Clients</a>
+      <a href='/' className={`dekstopMenuListItem ${window.location.pathname === '/' ? 'active' : ''}`}>Home</a>
+        <a href='/about' className={`dekstopMenuListItem ${window.location.pathname === '/about' ? 'active' : ''}`}>About</a>
+        <a href='/portfolio' className={`dekstopMenuListItem ${window.location.pathname === '/portfolio' ? 'active' : ''}`}>Portfolio</a>
+        <a href='/clients' className={`dekstopMenuListItem ${window.location.pathname === '/clients' ? 'active' : ''}`}>Clients</a>
       </div>
 
       <button className="dekstopMenuBtn" onClick={() => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         <a className="ListItem" href='/about' onClick={()=>setShowMenu(false)}>About</a>
         <a className="ListItem" href='/portfolio' onClick={()=>setShowMenu(false)}>Portfolio</a>
         <a className="ListItem" href='/clients' onClick={()=>setShowMenu(false)}>Clients</a>
-        <a className="ListItem" href='/contact' onClick={()=>setShowMenu(false)}>Contact</a>
+        <a className="ListItem" href='/contact'  onClick={()=>setShowMenu(false)}>Contact</a>
       </div>
   </nav>
   )
