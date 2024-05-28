@@ -1,6 +1,7 @@
 import React from "react";
 import './Portfolio.css';
 import NavbarMain from "../navBarMain/navBarMain";
+import FadeInSection from "../Animations/FadeInSection/FadeInSection";
 
 
 
@@ -8,6 +9,7 @@ const Portfolio = () => {
   return (
     <div>
        <NavbarMain />
+       <FadeInSection >
        <div id='filmWork'>
         
           <h1>Film</h1>
@@ -20,7 +22,9 @@ const Portfolio = () => {
         
         <h1>Designs</h1>
      </div>
+     </FadeInSection>
     </div>
+    
   )
 }
 

@@ -9,7 +9,9 @@
   justify-content: center;
   text-align: center;
   padding: 0 1rem;
+  
 }
+
 
 #filmWork {
   display: flex;
@@ -20,7 +22,18 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: blue;
+  background-image: url('https://images.unsplash.com/photo-1641135698530-8d919344c0e5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-position-y: -30rem;
+}
+
+#filmWork h1 {
+  color: black;
+  font-size: 2.5rem;
+  border: 15px solid white ;
+  border-radius: 2rem;
+  background-color: white;
 }
 
 #programWork {
@@ -32,7 +45,17 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: red;
+  background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+#programWork h1 {
+  color: black;
+  font-size: 2.5rem;
+  border: 15px solid white ;
+  border-radius: 2rem;
+  background-color: white;
 }
 
 #designWork {
@@ -44,5 +67,43 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: yellow;
+  background-image: url('https://images.unsplash.com/photo-1636489941333-dce15613fd9b?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-position-y: -10rem;
+}
+
+#designWork h1 {
+  color: black;
+  font-size: 2.5rem;
+  border: 15px solid white ;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+#programWork:hover {
+  border: 5px solid white;
+  box-shadow: 0 0 10px white;
+  animation: fade 1s;
+}
+
+#designWork:hover {
+  border: 5px solid white;
+  box-shadow: 0 0 10px white;
+  animation: fade 1s;
+}
+
+#filmWork:hover {
+  border: 5px solid white;
+  box-shadow: 0 0 10px white;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
 }
