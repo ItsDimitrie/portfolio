@@ -2,7 +2,7 @@
   margin: 0 auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 60rem;
+  max-width: 75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,51 +11,38 @@
   padding: 0 1rem;
 }
 
-.worksTitle {
-  margin: 1rem 0;
-  font-size: 3rem;
-}
-
-.worksDesc {
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-.worksImgs {
-  margin-top: 1rem;
+#filmWork {
   display: flex;
+  width: 100vw;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  text-align: center;
+  background-color: blue;
+}
+
+#programWork {
+  display: flex;
   width: 100vw;
-  max-width: 50rem;
-}
-
-.worksImg {
-  object-fit: cover;
   height: 20rem;
-  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
 }
 
-.worksBtn {
-    background: white;
-    color: black;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-    padding: 1rem 1rem;
-    border-radius: 5rem;
-}
-
-#seeMoreIcn {
-  margin-right: 0.25rem;
-  color: black;
-}
-
-@media screen and (max-width:500px) {
-.worksImg {
-  height: 40vw;
-}
+#designWork {
+  display: flex;
+  width: 100vw;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: yellow;
 }

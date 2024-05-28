@@ -7,6 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
+    <div id='navbar'>
     <nav className="navbar">
       <a href='/'><img src={logo} alt="Logo" className='logo' /></a>
 
@@ -31,6 +32,7 @@ const Navbar = () => {
         <a className="ListItem" href='/contact'  onClick={()=>setShowMenu(false)}>Contact</a>
       </div>
   </nav>
+  </div>
   )
 }
 export default Navbar

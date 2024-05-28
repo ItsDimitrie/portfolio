@@ -1,6 +1,6 @@
 import Intro from "../Intro/intro";
 import Skills from "../Skills/skills";
-import Portfolio from "../Portfolio/Portfolio";
+import PortfolioHome from "../Portfolio/PortfolioHome";
 import Client from "../Contact/client";
 import Contact from "..//Contact/contact";
 import NavBarHome from "../NavBarHome/navbar";
@@ -20,7 +20,7 @@ function Home() {
       </FadeInSection>
 
       <FadeInSection >
-       <Portfolio />
+       <PortfolioHome />
       </FadeInSection>
 
       <FadeInSection >
